@@ -1,0 +1,12 @@
+c:\Users\Loui\documents\visual studio 2017\Projects\OCR\AWS\bin\Debug\AWS.exe.config
+c:\Users\Loui\documents\visual studio 2017\Projects\OCR\AWS\bin\Debug\AWS.exe
+c:\Users\Loui\documents\visual studio 2017\Projects\OCR\AWS\bin\Debug\AWS.pdb
+c:\Users\Loui\documents\visual studio 2017\Projects\OCR\AWS\bin\Debug\AWSSDK.Core.dll
+c:\Users\Loui\documents\visual studio 2017\Projects\OCR\AWS\bin\Debug\AWSSDK.Rekognition.dll
+c:\Users\Loui\documents\visual studio 2017\Projects\OCR\AWS\bin\Debug\AWSSDK.Core.pdb
+c:\Users\Loui\documents\visual studio 2017\Projects\OCR\AWS\bin\Debug\AWSSDK.Core.xml
+c:\Users\Loui\documents\visual studio 2017\Projects\OCR\AWS\bin\Debug\AWSSDK.Rekognition.pdb
+c:\Users\Loui\documents\visual studio 2017\Projects\OCR\AWS\bin\Debug\AWSSDK.Rekognition.xml
+c:\Users\Loui\documents\visual studio 2017\Projects\OCR\AWS\obj\Debug\AWS.csprojResolveAssemblyReference.cache
+c:\Users\Loui\documents\visual studio 2017\Projects\OCR\AWS\obj\Debug\AWS.exe
+c:\Users\Loui\documents\visual studio 2017\Projects\OCR\AWS\obj\Debug\AWS.pdb

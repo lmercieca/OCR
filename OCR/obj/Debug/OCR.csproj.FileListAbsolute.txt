@@ -1,0 +1,6 @@
+c:\users\loui\documents\visual studio 2017\Projects\OCR\OCR\bin\Debug\OCR.exe.config
+c:\users\loui\documents\visual studio 2017\Projects\OCR\OCR\bin\Debug\OCR.exe
+c:\users\loui\documents\visual studio 2017\Projects\OCR\OCR\bin\Debug\OCR.pdb
+c:\users\loui\documents\visual studio 2017\Projects\OCR\OCR\obj\Debug\OCR.csprojResolveAssemblyReference.cache
+c:\users\loui\documents\visual studio 2017\Projects\OCR\OCR\obj\Debug\OCR.exe
+c:\users\loui\documents\visual studio 2017\Projects\OCR\OCR\obj\Debug\OCR.pdb
