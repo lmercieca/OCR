@@ -1,0 +1,125 @@
+﻿
+@{
+    ViewBag.Title = "Upload";
+    
+}
+
+<h2>Upload</h2>
+
+<form>
+    <input type="file" id="imageLoader" multiple />
+    <input type="button" id="Upload" value="Upload" />
+
+</form>
+
+
+<table cellpadding="5" cellspacing="3">
+    <tr style="vertical-align:top;">
+        <td><canvas id="imageCanvas" style="width:1000px;"></canvas></td>
+        <td><div id="words"></div></td>
+    </tr>
+</table>
+
+
+
+<script>
+
+    $(document).ready(function () {
+        var imageLoader = document.getElementById('imageLoader');
+        imageLoader.addEventListener('change', handleImage, false);
+        var canvas = document.getElementById('imageCanvas');
+        var ctx = canvas.getContext('2d');
+
+
+        function handleImage(e) {
+            var reader = new FileReader();
+            reader.onload = function (event) {
+                var img = new Image();
+                img.onload = function () {
+                    canvas.width = img.width;
+                    canvas.height = img.height;
+                    ctx.drawImage(img, 0, 0);
+                }
+                img.src = event.target.result;
+            }
+            reader.readAsDataURL(e.target.files[0]);
+
+        }
+    });
+
+
+    function getRandomColor() {
+        return 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+    }
+
+    $(document).ready(function () {
+
+        $("#Upload").click(function () {
+            var formData = new FormData();
+            
+            var totalFiles = document.getElementById("imageLoader").files.length;
+            for (var i = 0; i < totalFiles; i++) {
+                var file = document.getElementById("imageLoader").files[i];
+
+                formData.append("imageLoader", file);
+            }
+            $.ajax({
+                type: "POST",
+                url: '/Identity/UploadMe',
+                data: formData,
+                dataType: 'json',
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    var obj = jQuery.parseJSON(response);
+
+                    var canvas = document.getElementById('imageCanvas');
+                    var ctx = canvas.getContext('2d');
+
+                    var myRect = [];
+
+                    $.each(obj.regions, function (index, reg) {
+
+                        $.each(reg.lines, function (index, lines) {
+
+                            $.each(lines.words, function (index, value) {
+
+                                $("#words").append("<span style='color:" + getRandomColor() + "'; font-size:1.2em>" +  value.text + "</span><br>");
+                            var arr = value.boundingBox.split(',');
+                            console.log(arr[0]);
+
+                            ctx.beginPath();
+
+                            ctx.lineWidth = "6";
+                            ctx.rect(arr[0], arr[1], arr[2], arr[3]);
+                            ctx.strokeStyle = getRandomColor();
+                            ctx.stroke();
+                            });
+                        });
+                    });
+                    
+
+                    console.log(obj);
+                },
+                error: function (data, textStatus, jqXHR) {
+                    console.log(data.error + ' ' + jqXHR.responseText);
+                }
+            });
+        });
+    });
+
+
+    var loadImage = function (url) {
+
+        var ctx = document.getElementById('canvas');
+        if (ctx.getContext) {
+
+            ctx = ctx.getContext('2d');
+            var img = new Image();
+            img.src = url
+            img.onload = function () {
+                ctx.drawImage(img, 0, 0);
+            }
+        }
+    }
+</script>

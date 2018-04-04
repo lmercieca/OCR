@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "icosocialbounty",
+  "private_key_id": "9f2556e825f744aea020ce369ad6dcc35ef85650",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDMsYeIbKhE71uA\n9Fq9CpG0SVpoi+t0NF8E0kJ3kXD/AZO7n18+Z5CNMZEWpTDU8P+V1ey7XxmVRwue\nqZ1eqDZdr2hI1EGZITqv3mWQQzr67lZ4XUG6hRqjrOfdd6kPiK61HwfYTZ4o/idc\nH1XTkFr/ZTyqNFDWGrPUZ9m2Br7rhpZ8w/4bYFcyyk26cDAAaQyp8rSQffjonuv3\ntOh3SyAwHOe1SZIkcRPFGS8+75TpMZycteoJHlGpC5vLlXUqA4iBDkRroscn4qes\niNLOVgHwrPH9BPqwyFAnN/lc60bYTiMZ6BQmvxOYSwju1PcrHhiUWzmVKPc5rLny\nky35ZPpNAgMBAAECggEAEVsFG51g6BVmbAjr76bng0KL8pzYfi4Zl2JPhe1USB7l\nXI1vCS7FTB91hpbDjO6RMS5mB94QoH5ZXx7RC89V6rwearxqgnYVkIdaE7ELnW6b\ncNGxasPx5gpZT4cfk8RaUdubcezk2eNwyWgTwiA1gv2dtu3AI+M4N6yFgmBQjE4i\nZUU98Inh4msDnSrVKTvmYpY6tWFpjNx8Gs03qaBD/XffWtMhCqvWME65D6Ar7Ol3\n1pSh0Rdy4jlEMIQ8+sLFGWyheNvvWQFicosWAnV4BoFsSe7zQWOIbEYwkqI/Gno7\nRX4FN0mCg8dlS71qGarW16RIj+n1D5F8G11Tn2hWiQKBgQD2ENN62i8MmbWP6UtG\ndiZE1YWVwWJjFzsJJe+GxRJ5U2GF6XoPMBMvSc404i0JIBGKwb4qgh95+XMrKy/Q\nyIAD9TUj1iCB0nEtphrBswJB+E0tuXjpx1PxITNwNfJCZFpjF9u4u8ce+fGQHTvW\nnS9Lce3F6EQVY97WpLl/4npRNQKBgQDU9RtcF/rCbIkxlS+5PnkFy2/zmgp8Ifz6\nf23N1HRmPPeakYVp+IHVaPj6sRqDuDMM9Uljm3A439Xg3/Q9ohS8tVLcWsv8J3dU\naYZybYFzv5hWtErs/wZu/uUK2QHl4vonYQUUd52txcFMigTBF+pgzTEr1862TDmv\nEUtS87t/uQKBgQDcghOiYmgLWKu2PZCxoiuFP/uoSlbLCgRjnFVcZrq5cxlQEfzK\nI4DtvaxHA/Dr3osZ16l9GoLuobatltQQu7zMzy9B4B/ddyLpj5Mmxi5dxBAVy8Ip\nbfExg1k/U3i4OoothzHmCJDWl5H8XdZD6zR43a4AzrZEnO0TWSbLDcAjiQKBgQCM\nAtqKIfnr+g/5WWyXDkvjU223a3+ZPX9l8oHu4c/lqA/iv+pHUeuKtAl+SRJ1p5Vo\n35vwsTGHMyMbRiL+oqGfsFdaKRgUIJ6EER0j/nst7rnpx3+7cbB5KXzNNP/adPCj\nE1aTrlEs/uenutaFXYPrQP0jJi/yCwuh3mz3jOepgQKBgQCEvMLnNkbS2ihaMhTT\n+Dicnqf70LQOHJZ91h16wbpbFLRCRRUXRw6Jy4Vr2YCP3Mi6pixiILDbf+Mt0mTv\nv02F+nESNWBI0S9obdI4C/AMe/tmGyNB12CdGxZyttbvHliycISmIp5iVYr/XLyL\nGDuvrKWqJ2eqKSFMAGi+0fPDpw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "kyc-ocr@icosocialbounty.iam.gserviceaccount.com",
+  "client_id": "115052808377163435241",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kyc-ocr%40icosocialbounty.iam.gserviceaccount.com"
+}
